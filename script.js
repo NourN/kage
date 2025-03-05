@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
           });
   }
 
-  const apiKey = "22f28d4e6aa7d08955d7827877b3fede";  // Remplace par ta clé API
+  const apiKey = "22f28d4e6aa7d08955d7827877b3fede";
 
   updateTime("tokyo", "Asia/Tokyo");
   updateTime("losangeles", "America/Los_Angeles");
