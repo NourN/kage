@@ -1,59 +1,67 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #ecf5ff;
-  color: rgb(0, 0, 0);
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #fffacc, #99c2ff);
+  color: #333;
   text-align: center;
   padding: 50px;
+  margin: 0;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 500;
+  color: #444;
 }
 
 .clock {
-  padding: 5px;
+  padding: 1px;
   margin-top: 30px;
-  background-color: #d0e5ff;
+  background: #fbfbfb30;
+  border-radius: 10px;
 }
 
 .clock h2 {
   font-size: 1.5em;
-  color: #444444;
+  color: #444;
+  font-weight: 600;
   letter-spacing: 1px;
 }
 
 .clock p {
-  font-size: 1.2em;
+  font-size: 1em;
+  color: #777;
+  font-weight: 300;
 }
 
-.weather{
+.weather {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .weather img {
-  width: 40px; /* Ajuste la taille selon tes préférences */
-  height: auto;
+  width: 50px;
+  height: 50px;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
 }
 
 @media (max-width: 600px) {
   body {
-      padding: 20px;
+    padding: 20px;
   }
 
   .clock {
-      margin-top: 20px;
+    margin-top: 20px;
+    padding: 15px;
   }
 
   .clock h2 {
-      font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .clock p {
-      font-size: 1em;
+    font-size: 1.2em;
   }
 }
