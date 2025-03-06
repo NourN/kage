@@ -54,9 +54,11 @@ function updateWeather(id, city) {
     fetch(url)
         .then(response => response.json())
         .then(data => {
+            console.log(data)
             const temp = Math.round(data.main.temp);
+            const description = data.weather[0].description;
             const icon = data.weather[0].icon;
-            weatherElement.innerHTML = `<img src="https://openweathermap.org/img/wn/${icon}@4x.png" alt="Weather Icon"> ${temp}°C`;
+            weatherElement.innerHTML = `<img src="https://openweathermap.org/img/wn/${icon}@4x.png" alt="Weather Icon">${description} ${temp}°C`;
         })
         .catch(error => {
             console.error("Error fetching weather data:", error);
