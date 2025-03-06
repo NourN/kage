@@ -1,15 +1,5 @@
 [
   {
-    "id": 1705545,
-    "name": "Los Angeles",
-    "state": "",
-    "country": "PH",
-    "coord": {
-        "lon": 125.608063,
-        "lat": 9.0125
-    }
-  },
-  {
     "id": 5855797,
     "name": "Hawaii",
     "state": "HI",
@@ -20,6 +10,16 @@
     }
   },
   {
+    "id": 5368361,
+    "name": "Los Angeles",
+    "state": "CA",
+    "country": "US",
+    "coord": {
+        "lon": -118.243683,
+        "lat": 34.052231
+    }
+},
+  {
     "id": 5128638,
     "name": "New York",
     "state": "NY",
@@ -27,6 +27,26 @@
     "coord": {
         "lon": -75.499901,
         "lat": 43.000351
+    }
+  },
+  {
+    "id": 6458783,
+    "name": "Geneva",
+    "state": "",
+    "country": "CH",
+    "coord": {
+      "lon": 6.12737,
+      "lat": 46.208038
+    }
+  },
+  {
+    "id": 1880252,
+    "name": "Singapore",
+    "state": "",
+    "country": "SG",
+    "coord": {
+      "lon": 103.850067,
+      "lat": 1.28967
     }
   },
   {
@@ -40,16 +60,6 @@
     }
   },
   {
-    "id": 1880252,
-    "name": "Singapore",
-    "state": "",
-    "country": "SG",
-    "coord": {
-        "lon": 103.850067,
-        "lat": 1.28967
-    }
-  },
-  {
     "id": 2147714,
     "name": "Sydney",
     "state": "",
@@ -57,16 +67,6 @@
     "coord": {
         "lon": 151.207321,
         "lat": -33.867851
-    }
-  },
-  {
-    "id": 6458783,
-    "name": "Geneva",
-    "state": "",
-    "country": "CH",
-    "coord": {
-        "lon": 6.12737,
-        "lat": 46.208038
     }
   }
 ]
