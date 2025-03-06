@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #1a1a1a;
-  color: white;
+  background-color: #ecf5ff;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 50px;
 }
@@ -13,18 +13,31 @@ h1 {
 }
 
 .clock {
+  padding: 5px;
   margin-top: 30px;
+  background-color: #d0e5ff;
 }
 
 .clock h2 {
   font-size: 1.5em;
-  color: #ff6347;
+  color: #444444;
   letter-spacing: 1px;
 }
 
 .clock p {
   font-size: 1.2em;
-  color: #ddd;
+}
+
+.weather{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.weather img {
+  width: 40px; /* Ajuste la taille selon tes préférences */
+  height: auto;
 }
 
 @media (max-width: 600px) {

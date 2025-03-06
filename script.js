@@ -12,34 +12,34 @@ function updateTime(city, timezone) {
         
 }
 
-/* function updateWeather(city, apiKey) {
-  const weatherElement = document.querySelector(`#${city} .weather`);
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+function updateWeather(id, city) {
+  const weatherElement = document.querySelector(`#${id} .weather`);
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   
   fetch(url)
     .then(response => response.json())  // Il faut utiliser .json() ici
     .then(data => {
-        const temp = data.main.temp;
-        console.log(temp);
-        weatherElement.innerText = `${temp}°C`;
+
+        console.log(data)
+        const temp = Math.round(data.main.temp);
+        const icon = data.weather[0].icon;
+        
+        weatherElement.innerHTML = `<img src="https://openweathermap.org/img/wn/${icon}@2x.png" alt="Weather Icon"> ${temp}°C`;
+
     })
     .catch(error => {
         console.error("Error fetching weather data:", error);
         weatherElement.innerText = "Failed to load weather data";
     });
 }
+updateWeather("tokyo", "Tokyo");
+updateWeather("losangeles", "Los Angeles");
+updateWeather("newyork", "New York");
 
-
-updateWeather("Tokyo");
-updateWeather("Los Angeles");
-updateWeather("New York"); */
 
 setInterval(() => {
     updateTime("tokyo", "Asia/Tokyo");
     updateTime("losangeles", "America/Los_Angeles");
     updateTime("newyork", "America/New_York");
 }, 1000);
-
-
-//[35.6895, 139.6917] tokyo
 

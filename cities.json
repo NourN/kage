@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1705545,
+    "name": "Los Angeles",
+    "state": "",
+    "country": "PH",
+    "coord": {
+        "lon": 125.608063,
+        "lat": 9.0125
+    }
+  },
+  {
+    "id": 5855797,
+    "name": "Hawaii",
+    "state": "HI",
+    "country": "US",
+    "coord": {
+        "lon": -156.500275,
+        "lat": 20.75028
+    }
+  },
+  {
+    "id": 5128638,
+    "name": "New York",
+    "state": "NY",
+    "country": "US",
+    "coord": {
+        "lon": -75.499901,
+        "lat": 43.000351
+    }
+  },
+  {
+    "id": 1850147,
+    "name": "Tokyo",
+    "state": "",
+    "country": "JP",
+    "coord": {
+        "lon": 139.691711,
+        "lat": 35.689499
+    }
+  },
+  {
+    "id": 1880252,
+    "name": "Singapore",
+    "state": "",
+    "country": "SG",
+    "coord": {
+        "lon": 103.850067,
+        "lat": 1.28967
+    }
+  },
+  {
+    "id": 2147714,
+    "name": "Sydney",
+    "state": "",
+    "country": "AU",
+    "coord": {
+        "lon": 151.207321,
+        "lat": -33.867851
+    }
+  },
+  {
+    "id": 6458783,
+    "name": "Geneva",
+    "state": "",
+    "country": "CH",
+    "coord": {
+        "lon": 6.12737,
+        "lat": 46.208038
+    }
+  }
+]
